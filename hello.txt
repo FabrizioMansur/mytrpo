@@ -1,1 +1,43 @@
-ciao a tutti
+crea un directory dove vuoi iniziare il repo
+
+git init nomedelrepo = inizia un repo
+
+ls per vedere se il repo é stato creato
+
+cd nomedelrepo e verifica con ls -al
+
+create a file.py per esempio
+
+git status = verifica lo stato del file
+
+git add file.py = aggiunge il file per il futuro commit
+verifica il suo stato con git status
+
+git config --global user.name "FabrizioMansur"
+git config --global user.email "lamiaemail"
+git commit -m "initial commit of file.py"
+
+per esempio aggiungi del contenuto al file.py con vim
+
+poi fai git status e vedrai che il contenuto é stato modificato
+
+fai git diff file.py per vedere
+
+git add file.py per confermare la modifica
+
+git commit e si apre il text editor:
+scrivi updated file.py
+
+PUSH THE REPO ON GITHUB
+vai su github e fai new repo
+copia il link del repo
+
+
+git log --oneline
+
+se vuoi tornare all commit initial fai:
+git revert numeroUltimoCommit e si apre il text editor
+
+
+CLONE A REPO
+git clone https://etcetera....
